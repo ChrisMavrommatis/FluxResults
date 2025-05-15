@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>FluxResults</PackageId>
+        <Title>FluxResults</Title>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Chris Mavrommatis</Authors>
+        <PackageProjectUrl>https://github.com/ChrisMavrommatis/FluxResults</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/ChrisMavrommatis/FluxResults</RepositoryUrl>
+        <Version>0.0.1</Version>
+        <PackageIcon>package_icon.png</PackageIcon>
+        <AssemblyName>FluxResults</AssemblyName>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <RootNamespace>FluxResults</RootNamespace>
+        <Description>Clean, expressive result and union types for modern .NET.</Description>
+        <PackageTags>result;union;utility;typed-results;dotnet;csharp;error-handling;</PackageTags>
+        <RepositoryType>git</RepositoryType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\..\assets\package_icon.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>
